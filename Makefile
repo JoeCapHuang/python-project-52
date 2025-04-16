@@ -11,4 +11,4 @@ build:
 	./build.sh
 
 render-start:
-	uv run gunicorn task_manager.wsgi
+	.venv/bin/python -m gunicorn task_manager.wsgi
